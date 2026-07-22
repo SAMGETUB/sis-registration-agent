@@ -42,10 +42,10 @@ Registering for courses at UMass Lowell means constantly refreshing the SiS port
 
 ## 🚀 Roadmap
 
-- [X] Playwright login + session handling for the SiS portal
-- [X] Seat availability checker for a single course
-- [X] Prerequisite and permission-code validation
-- [X] Enrollment submission
+- [✅] Playwright login + session handling for the SiS portal
+- [✅] Seat availability checker for a single course
+- [] Prerequisite and permission-code validation
+- [✅] Enrollment submission
 - [ ] n8n scheduling and polling loop
 - [ ] Gmail notifications on success / failure
 
