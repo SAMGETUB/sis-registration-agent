@@ -1,5 +1,6 @@
 from config import wishlist
 from enroller import enroll
+import notifier 
 
 def check_seats(page):
     for course in wishlist:
@@ -20,6 +21,7 @@ def check_seats(page):
         if "enrollment-status-open" in icon_class:
             result= enroll(page,course)
             print(f"{course['name']} : {result[0]} - {result[1]}")
+            notifier.notify(course, result[0], result[1])
         elif "enrollment-status-waitlist" in icon_class:
             print(f"{course['name']} is Wait Listed - can't enroll")
         elif "enrollment-status-closed" in icon_class:
