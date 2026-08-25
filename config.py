@@ -3,6 +3,7 @@ import os
 
 load_dotenv()
 password = os.getenv("SIS_PASSWORD")
+webhook_url = os.getenv("N8N_WEBHOOK_URL")
 
 wishlist = [
 
@@ -31,6 +32,3 @@ wishlist = [
 
 poll_interval= 1800
 notify_email= "coq.erwin.samuel@gmail.com"
-
-
-# https://www.uml.edu/student-dashboard#class-search/search?term=3610&subjects=SOCI&partialCatalogNumber=1010&classNumber=7613
