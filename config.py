@@ -31,4 +31,3 @@ wishlist = [
 ]
 
 poll_interval= 1800
-notify_email= "coq.erwin.samuel@gmail.com"
