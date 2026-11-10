@@ -1,4 +1,4 @@
-# SiS Course Registration Automation Agent
+# SiS Course Registration Automation Boot
 
 > 🚧 **Status: Currently in active development**
 
